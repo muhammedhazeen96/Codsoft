@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibrant Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #2c3e50;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .column {
+            background-color: #e74c3c;
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Vibrant Landing Page</h1>
+        <p>Discover the world of creativity and innovation.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="content">
+        <div class="column">
+            <h2>Creative Design</h2>
+            <p>At our core, we believe in the power of creativity to transform and inspire. Our designs are tailored to ignite your imagination.</p>
+        </div>
+        <div class="column">
+            <h2>Innovative Solutions</h2>
+            <p>We provide cutting-edge solutions that drive success. Our innovative approach ensures your projects are ahead of the curve.</p>
+        </div>
+        <div class="column">
+            <h2>Expert Team</h2>
+            <p>Our team of experts brings together a wealth of knowledge and experience, dedicated to delivering excellence in every project.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 My Vibrant Landing Page. All rights reserved.</p>
+        <p>Follow us on <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a></p>
+    </footer>
+</body>
+</html>
