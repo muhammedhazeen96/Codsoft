@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        section {
+            padding: 20px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            color: #4CAF50;
+            font-size: 24px;
+        }
+        .about-content {
+            font-size: 22px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        ul li::before {
+            content: "\2022";
+            color: #4CAF50;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Muhammed Hazeen</h1>
+        <p>Data Analytics Aspirant</p>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p class="about-content">As a passionate data analytics aspirant, I am dedicated to uncovering valuable insights from complex datasets. With a strong foundation in Python, PowerBi, and HTML, I possess the technical skills required to analyze and visualize data effectively. I am driven by curiosity and a desire to leverage data to solve real-world problems. My goal is to contribute to data-driven decision-making processes and support organizations in achieving their objectives through insightful analysis. Currently, I am eager to apply my knowledge and skills in a dynamic and challenging environment where I can grow and make a meaningful impact.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>&#8226; Python</li>
+            <li>&#8226; PowerBi</li>
+            <li>&#8226; HTML</li>
+            <li>&#8226; Microsoft Excel</li>
+        </ul>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <h3>Bangalore University</h3>
+        <p>Bachelor of Computer Applications, Getting Graduated in Year 2025</p>
+        <h3>Dayanand Sagar Institutions</h3>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: Muhdhazeenkp96@gmail.com</p>
+        <p>Phone: +91 95676 48196</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Muhammed Hazeen. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
